@@ -35,7 +35,7 @@ p, span{
 
   .nav-content {
     display: flex;
-    @include center(right);
+    @include center(flex-end);
     height: 100%;
     margin-right: 220px;
 
