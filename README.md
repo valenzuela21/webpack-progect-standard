@@ -3,10 +3,6 @@
 
 ![Front-end Webpack](https://raw.githubusercontent.com/valenzuela21/webpack-progect-standard/main/SceenShot.jpg)
 
-## Demo
-
-* [Demo page demonstrating building - SASS, JavaScript, Images, Fonts, HTML](https://weareathlon.github.io/frontend-webpack-boilerplate/)
-
 
 # Development
 
