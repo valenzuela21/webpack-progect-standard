@@ -19,6 +19,13 @@
 * **HTML** files are located under `src/`
   * It will **automatically** build **all HTML files** placed under `src/` directory, no need to manually configure each template anymore!
 
+## Start Pogect
+
+```sh
+$ npm i or npm install
+```
+
+
 ## Build Assets
 
 ### One time build assets for development
