@@ -1,4 +1,4 @@
-# Webpack Standard
+# Webpack Standard Progect
 
 
 ![Front-end Webpack](https://raw.githubusercontent.com/valenzuela21/webpack-progect-standard/main/SceenShot.jpg)
