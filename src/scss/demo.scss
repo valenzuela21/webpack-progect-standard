@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+html, body {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  background-color: $white;
+  font-size: 13px;
+  height: 100%;
+  @include box-sizing(border-box);
+}
+
+*,
+*:after,
+*:before {
+  @include box-sizing(inherit);
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Oswald', sans-serif;
+}
+
+p, span{
+  font-family: 'Lato', sans-serif;
+}
+
+.bg-nav {
+  background-image: url('../images/design/fondo-menu.jpg');
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0px;
+  right: -2550px;
+  @include fullwidth;
+  z-index: 99;
+
+  .nav-content {
+    display: flex;
+    @include center(right);
+    height: 100%;
+    margin-right: 220px;
+
+    .list-content li {
+      list-style: none;
+      a {
+        font-family: 'Oswald', sans-serif;
+        font-size: 4rem;
+        line-height: 7rem;
+        cursor: pointer;
+        color: $white;
+        position: relative;
+        transition: transform 250ms linear;
+      }
+      &:hover{
+        transform: scale(1.2);
+      }
+      :hover{
+        font-weight: 800;
+        color: $black;
+      }
+    }
+
+    .reds-socials{
+      list-style: none;
+      position: absolute;
+      right: 20px;
+      z-index: 99999;
+      li a :hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+#icon_menu_first, #icon_menu_seconds{
+  width: 50px;
+}
+
+.navigation{
+  @include flexend;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  list-style: none;
+
+  .margin-right-menu {
+    margin-right: 30px;
+  }
+}
+
+.footer-content{
+  @include flexend;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  bottom: 0px;
+
+  #chat_icon{
+    right: 20px;
+    position: relative;
+  }
+
+}
+
+#pinContainer {
+  @include fullwidth;
+  overflow: hidden;
+}
+
+.panel {
+  @include fullwidth;
+  position: absolute;
+}

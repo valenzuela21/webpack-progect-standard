@@ -1,0 +1,47 @@
+.title{
+  font-size: 6rem;
+  margin: 0px;
+  color: $black;
+}
+
+.subtitle{
+  font-size: 2rem;
+  margin: 0px;
+  color: $black ;
+}
+
+.parrafo{
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+  color: $black;
+}
+
+.content-first{
+  max-width: 700px;
+  height: 100%;
+  margin: auto;
+  @include center(center);
+  top: -60px;
+  position: relative;
+}
+
+.content-seconds{
+  max-width: 1000px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  @include center(center);
+}
+
+.image-mobil2{
+  width: 350px;
+}
+.image-mobil1{
+  position: absolute;
+  width: 300px;
+  left: 120px;
+  top: 190px;
+  z-index: 9999;
+}

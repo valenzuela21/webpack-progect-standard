@@ -1,0 +1,46 @@
+
+@mixin box-sizing($box-model) {
+  box-sizing: $box-model;
+  padding:0px;
+  margin: 0px;
+}
+
+@mixin center($property) {
+  display: flex;
+  justify-content: $property;
+  align-items: center;
+}
+
+@mixin  fullwidth{
+  width: 100%;
+  height: 100%;
+}
+
+@mixin  flexend{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+@mixin  parrafo_responsive{
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+@mixin  mobil_responsive{
+
+  .image-mobil2 {
+    width: 190px;
+    margin: auto;
+    display: block;
+  }
+
+  .image-mobil1 {
+    width: 160px;
+    top: 50px;
+    left: 120px;
+    right: 0px;
+    margin: auto;
+  }
+}
+
