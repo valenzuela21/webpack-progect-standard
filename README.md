@@ -4,6 +4,10 @@
 ![Front-end Webpack](https://raw.githubusercontent.com/valenzuela21/webpack-progect-standard/main/SceenShot.jpg)
 
 
+# Demo
+[Demo page with wetpack](https://lucid-lamarr-df6f55.netlify.app/)
+
+
 # Development
 
 ## Assets Source
