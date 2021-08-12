@@ -1,5 +1,4 @@
-# Webpack 5 Boilerplate Template
-
+# Webpack Standard
 
 
 ![Front-end Webpack](https://raw.githubusercontent.com/valenzuela21/webpack-progect-standard/main/SceenShot.jpg)
